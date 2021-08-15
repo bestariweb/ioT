@@ -21,8 +21,8 @@
 
 //Thingsboard & Blynk token data
 #define BLYNK_PRINT serial
-#define TOKEN "gRheaT1yIL6bi07r0wL6"
-#define THINGSBOARD_SERVER  "43.252.237.40"
+#define TOKEN "tokenthingsboard-disini"
+#define THINGSBOARD_SERVER  "111.112.113.114"  // IP Server Thingsboard
 
 // Initialize ThingsBoard client
 WiFiClient espClient;
@@ -32,8 +32,8 @@ ThingsBoard tb(espClient);
 // the Wifi radio's status
 int status = WL_IDLE_STATUS;
 
-const char* BlynkServer = "blynk.bestariwebhost.com";
-const char* Blynkauth = "uuXTcTVNj0WR2BSwB0td-XEwAWpEAtwr";
+const char* BlynkServer = "server-blynk-disini";
+const char* Blynkauth = "token-auth-blynk-disini";
 
 BlynkTimer timer;
 
